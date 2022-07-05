@@ -1,0 +1,48 @@
+.SectionDestination {
+  background-image: url("../../../../assets/destination/background-destination-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.SectionDestinationContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.SectionTitle {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.SectionTitle span {
+  color: #444;
+}
+
+.SectionList {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.SectionListItem {
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-bottom: 0.8rem;
+  color: #fff;
+}
+
+.Active {
+  border-bottom: 4px solid #fff;
+}
+
+.SectionDestinationImg {
+  width: 200px;
+}

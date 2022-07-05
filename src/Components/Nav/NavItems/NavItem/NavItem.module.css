@@ -1,0 +1,13 @@
+.NavItem {
+  list-style: none;
+}
+
+.NavItemLink:link,
+.NavItemLink:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #d3d3d3;
+
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,30 @@
+.NavItems {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.NavItems span {
+  color: #fff;
+}
+
+@media (min-width: 800px) {
+  .NavItems {
+    background-image: linear-gradient(
+      to left,
+      rgba(168, 168, 168, 0.1),
+      rgba(168, 168, 168, 0.3)
+    );
+    backdrop-filter: blur(1rem);
+    width: 70%;
+    padding: 2.4rem 2rem;
+
+    flex-direction: row;
+    gap: 6rem;
+
+    /* TEMP */
+    position: absolute;
+    top: 2rem;
+    right: 0;
+  }
+}

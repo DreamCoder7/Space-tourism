@@ -1,0 +1,95 @@
+.HeaderContent {
+  min-height: 100vh;
+  padding: 0 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.HeaderContent div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PrimaryHeading {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #d0d6f9;
+  letter-spacing: 2px;
+}
+
+.PrimaryHeading span {
+  font-size: 6rem;
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding-top: 2rem;
+}
+
+.HeaderContentText {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #d0d6f9;
+}
+
+.HeaderBtn:link,
+.HeaderBtn:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 2.4rem;
+  background-color: #fff;
+  border-radius: 50%;
+
+  /* TEMP */
+  width: 12rem;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .HeaderContentText {
+    width: 75%;
+  }
+}
+
+@media (min-width: 800px) {
+  .HeaderContent {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .HeaderContent div {
+    align-items: flex-start;
+    gap: 2.4rem;
+    width: 70%;
+  }
+
+  .HeaderContentText,
+  .PrimaryHeading {
+    text-align: start;
+  }
+
+  .HeaderContentText {
+    width: 80%;
+  }
+
+  .PrimaryHeading span {
+    text-align: start;
+    font-size: 8rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .HeaderContentText {
+    width: 50%;
+  }
+}

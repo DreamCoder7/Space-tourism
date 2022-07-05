@@ -1,0 +1,28 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.Title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #e0dede;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.Title span {
+  display: block;
+  color: #fff;
+  font-size: 3.2rem;
+}
+
+.Content {
+  color: #d8d7d7;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 1.8rem;
+}

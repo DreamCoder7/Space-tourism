@@ -1,0 +1,59 @@
+.SectionCrew {
+  background-image: url("../../../../assets/crew/background-crew-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+
+  padding-bottom: 8rem;
+}
+
+.SectionCrewContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0 2.4rem;
+}
+
+.SectionCrewTitle {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.SectionCrewTitle span {
+  color: #555;
+  margin-right: 1rem;
+}
+
+.SectionCrewList {
+  border-top: 1px solid #555;
+  width: 100%;
+  padding: 2.4rem 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.SectionCrewListBtn {
+  all: unset;
+  background-color: #999;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Active {
+  background-color: #fff;
+}
+
+.SectionCrewImg {
+  width: 200px;
+
+  padding-top: 3.2rem;
+}

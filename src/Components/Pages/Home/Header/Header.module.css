@@ -1,0 +1,22 @@
+.Header {
+  background-image: linear-gradient(
+      rgba(11, 13, 23, 0.6),
+      rgba(11, 13, 23, 0.6)
+    ),
+    url("../../../../assets/home/background-home-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .Header {
+    background-image: url("../../../../assets/home/background-home-tablet.jpg");
+  }
+}
+
+@media (min-width: 800px) {
+  .Header {
+    background-image: url("../../../../assets/home/background-home-desktop.jpg");
+  }
+}
