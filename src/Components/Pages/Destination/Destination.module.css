@@ -48,3 +48,30 @@
   padding-top: 1rem;
   display: block;
 }
+
+@media (min-width: 600px) {
+  .Travel {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 800px) {
+  .Container {
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .Content {
+    text-align: start;
+  }
+
+  .Travel {
+    justify-content: flex-start;
+    gap: 4rem;
+  }
+
+  .Distance {
+    text-align: start;
+  }
+}

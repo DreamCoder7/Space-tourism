@@ -11,6 +11,8 @@
   flex-direction: column;
   align-items: center;
   gap: 3.2rem;
+
+  padding: 5rem 0;
 }
 
 .SectionTitle {
@@ -40,6 +42,7 @@
   width: 4rem;
   height: 4rem;
   font-size: 1.8rem;
+  cursor: pointer;
 
   display: flex;
   align-items: center;
@@ -53,4 +56,51 @@
 
 .SectionTechnologyImg {
   width: 100%;
+}
+
+@media (min-width: 600px) {
+  .SectionTechnology {
+    background-image: url("../../../../assets/technology/background-technology-tablet.jpg");
+  }
+
+  .SectionTitle {
+    align-self: flex-start;
+    padding-left: 2.4rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .SectionTechnology {
+    background-image: url("../../../../assets/technology/background-technology-desktop.jpg");
+  }
+
+  .SectionContent {
+    display: grid;
+    grid-template-columns: 10rem 1fr 1fr;
+    row-gap: 8rem;
+
+    padding-left: 8rem;
+    padding-bottom: 0;
+  }
+
+  .SectionTitle {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  .SectionTechnologyImg {
+    grid-column: 3;
+    grid-row: 1 / span 4;
+    justify-self: flex-end;
+    width: 100%;
+
+    /* TEMP */
+    height: 40rem;
+  }
+
+  .SectionList {
+    grid-column: 1 / 2;
+    grid-row: 2 / span 3;
+    flex-direction: column;
+  }
 }

@@ -1,13 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import classes from "./NavItem.module.css";
+import { Link,useLocation } from "react-router-dom";
 
-const navItem = (props) => (
-  <li className={classes.NavItem}>
-    <Link className={classes.NavItemLink} to={props.link}>
-      {props.children}
-    </Link>
-  </li>
-);
+function NavItem(props) {
+  const location = useLocation();
 
-export default navItem;
+  return (
+    <li className={classes.NavItem}>
+      <Link
+        className={
+          location.pathname === props.link
+            ? [classes.NavItemLink, classes.Active].join(" ")
+            : classes.NavItemLink
+        }
+        to={props.link}
+      >
+        {props.children}
+      </Link>
+    </li>
+  );
+}
+
+export default NavItem;

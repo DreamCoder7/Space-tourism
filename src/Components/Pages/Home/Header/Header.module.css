@@ -9,12 +9,14 @@
   width: 100%;
 }
 
+/* TABLET */
 @media (min-width: 600px) {
   .Header {
     background-image: url("../../../../assets/home/background-home-tablet.jpg");
   }
 }
 
+/* DESKTOP */
 @media (min-width: 800px) {
   .Header {
     background-image: url("../../../../assets/home/background-home-desktop.jpg");

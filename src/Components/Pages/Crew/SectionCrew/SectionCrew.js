@@ -88,8 +88,8 @@ class SectionCrew extends Component {
             alt={this.state.showCrew}
           />
           <div className={classes.SectionCrewList}>{listBtn}</div>
+          {displayCrew}
         </div>
-        {displayCrew}
       </section>
     );
   }

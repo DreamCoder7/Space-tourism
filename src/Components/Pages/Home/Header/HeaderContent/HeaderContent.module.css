@@ -13,12 +13,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2.4rem;
+  padding-bottom: 4rem;
 }
 
 .PrimaryHeading {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 300;
   text-transform: uppercase;
+  text-align: center;
   color: #d0d6f9;
   letter-spacing: 2px;
 }
@@ -26,13 +29,12 @@
 .PrimaryHeading span {
   font-size: 6rem;
   color: #fff;
-  text-align: center;
   display: block;
   padding-top: 2rem;
 }
 
 .HeaderContentText {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
   color: #d0d6f9;
@@ -55,9 +57,20 @@
   justify-content: center;
 }
 
+/* TABLET */
 @media (min-width: 600px) {
+  .PrimaryHeading {
+    font-size: 1.8rem;
+    padding: 0;
+  }
+
+  .PrimaryHeading span {
+    font-size: 10rem;
+  }
+
   .HeaderContentText {
     width: 75%;
+    line-height: 1.7;
   }
 }
 

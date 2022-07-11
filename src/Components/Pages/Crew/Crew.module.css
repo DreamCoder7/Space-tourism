@@ -13,6 +13,7 @@
   text-transform: uppercase;
   color: #fff;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .Title span {
@@ -26,4 +27,19 @@
   line-height: 1.5;
   text-align: center;
   color: #e9e9e9;
+}
+
+@media (min-width: 800px) {
+  .Container {
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .Title {
+    text-align: start;
+  }
+
+  .Content {
+    text-align: start;
+  }
 }

@@ -26,3 +26,19 @@
   line-height: 1.5;
   padding: 0 1.8rem;
 }
+
+@media (min-width: 800px) {
+  .Container {
+    grid-column: 2;
+    grid-row: 2 / span 3;
+  }
+
+  .Title {
+    text-align: start;
+  }
+
+  .Content {
+    text-align: start;
+    padding: 0;
+  }
+}

@@ -16,3 +16,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.Modal ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}

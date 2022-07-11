@@ -13,3 +13,10 @@
 .BtnHidden {
   display: none;
 }
+
+/* TABLET */
+@media (min-width: 600px) {
+  .NavToggle {
+    display: none;
+  }
+}

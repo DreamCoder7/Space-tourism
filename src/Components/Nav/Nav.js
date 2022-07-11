@@ -24,7 +24,7 @@ class Nav extends Component {
       <nav className={classes.Nav}>
         <Logo />
         <Modal show={this.state.showModal} />
-        {/* <NavItems /> */}
+        <NavItems />
         <NavToggle
           openModal={this.showModalHundler}
           closeModal={this.hiddeModalHundler}
